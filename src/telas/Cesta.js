@@ -64,6 +64,7 @@ const estilos = StyleSheet.create({
     cesta:{
         paddingVertical: 8,
         paddingHorizontal: 16,
+        fontFamily: "Montserrat_Bold",
     },
     
     nomeFazenda:{
@@ -78,6 +79,7 @@ const estilos = StyleSheet.create({
 
     fazenda:{
         flexDirection: 'row',
+        fontFamily: "Montserrat_Regular",
     },
 
     preco:{
