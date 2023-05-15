@@ -28,7 +28,7 @@ export default function App() {
     }
   
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
       <StatusBar/>
       <Cesta {...mock}/> //... serve para passar todas as propriedades do componente mock
       <StatusBar style="auto" />
